@@ -1,6 +1,6 @@
 <?php
 
-require_once 'processa_livro.php'
+require_once 'processa_livro.php';
 
 ?>
 
@@ -100,8 +100,6 @@ require_once 'processa_livro.php'
     }
   </style>
 
-
-
 </head>
 <body>
   <div class="form-box">
@@ -109,6 +107,7 @@ require_once 'processa_livro.php'
       <h1 class="title">Cadastro de livros</h1>
 
       <?php if (isset($mensagem)) : ?>
+        
             <div class="mensagem"><?php echo $mensagem; ?></div>
         <?php endif; ?>
 
