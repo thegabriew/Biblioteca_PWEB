@@ -5,7 +5,7 @@ class Pessoa{
     private $cpf;
 
 
-    public function __constructor($nome, $cpf){
+    public function __construct($nome, $cpf){
         $this ->nome = $nome;
         $this -> cpf = $cpf;
     }
@@ -21,3 +21,4 @@ class Pessoa{
 
 
 ?>
+
