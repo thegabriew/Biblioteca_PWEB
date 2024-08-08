@@ -7,7 +7,7 @@ class Livro{
     private $autor;
 
 
-    public function __constructor($titulo, $ano, $autor){
+    public function __construct($titulo, $ano, $autor){
         $this->titulo = $titulo;
         $this->ano = $ano;
         $this->autor = $autor;
