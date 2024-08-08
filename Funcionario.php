@@ -7,7 +7,7 @@ class Funcionario extends Pessoa{
 private int $idFuncionario;
 private string $cargo;
 
-public function __constructor($idFuncionario, $cargo){
+public function __construct($idFuncionario, $cargo){
     $this -> idFuncionario = $idFuncionario;
     $this -> cargo = $cargo;
 }
