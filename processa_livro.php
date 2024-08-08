@@ -4,6 +4,8 @@ session_start();
 
 include_once 'Livro.php';
 
+$mensagem = '';
+
 if($_SERVER['REQUEST_METHOD']=='POST'){
 
     $titulo = $_POST['titulo'];
