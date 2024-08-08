@@ -7,7 +7,7 @@ class Usuario implements InterfaceUsuario{
     private $novaSenha;
     private $senha;
 
-    public function __constructor($idUsuario, $senha){
+    public function __construct($idUsuario, $senha){
 
         $this ->idUsuario = $idUsuario;
         $this -> senha = $senha;
